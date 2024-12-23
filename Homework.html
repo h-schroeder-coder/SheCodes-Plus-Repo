@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/homework.style.css">
+    <title>SheCodes Plus - My Weather Application</title>
+  </head>
+  <body>
+    <div class="weather-app">
+    <header>
+      <form action="search">
+        <div>
+          <input type="search" class="enter-a-city-Button" id="city" placeholder="Enter a city..." required />
+          <input type="submit" class="search-button" value="Search"/>
+        </div>
+      </form>
+    </header>
+    <main>
+      <section class="current-date-time-conditions">
+        <h1>Name of City</h1>
+      <p>
+        Day of Week, Time, current conditions
+        <br />
+        Humidity: <strong>%</strong>, Wind: <strong>m/h</strong>
+      </p>
+      <section class="current-temperature">
+        <span class="current-temperature-emoji"></span>☀️</span>
+         <span class="current-temperature-value"><strong>Temp</strong></span>
+           <span class="current-temperature-unit">&#8457</span>
+        </section>
+    </main>
+    <section class="forcast">
+        <ul>
+           <div class="5-dayforcast-li">
+            <li>Day of the week 🌤️ <br /> <strong>Predicted Low Temperature &#8457 </strong> - Predicted High Temperature &#8457 </li>
+           </div>
+           <div class="5-dayforcast-li">
+            <li>Day of the week 🌤️ <br /> <strong>Predicted Low Temperature &#8457 </strong> - Predicted High Temperature &#8457 </li>
+           </div>
+           <div class="5-dayforcast-li">
+            <li>Day of the week 🌤️ <br /> <strong>Predicted Low Temperature &#8457 </strong> - Predicted High Temperature &#8457 </li>
+           </div>
+           <div class="5-dayforcast-li">
+            <li>Day of the week 🌤️ <br /> <strong>Predicted Low Temperature &#8457 </strong> - Predicted High Temperature &#8457 </li>
+           </div>
+           <div class="5-dayforcast-li">
+            <li>Day of the week 🌤️ <br /> <strong>Predicted Low Temperature &#8457 </strong> - Predicted High Temperature &#8457 </li>
+           </div>
+        </ul>
+    </section>
+    <footer>
+      <p>
+        This project was coded by <a href="https://www.shecodes.io/graduates/157590-hannah-schroeder" target="_blank">Hannah Schroeder</a> and is <a href="" target="_blank">on GitHub</a> and <a href="" target="_blank">hosted by Netlify</a>
+      </p>
+    </footer>
+    </div>
+    <script src="src/js/homework.app.js"></script>
+  </body>
+</html>
